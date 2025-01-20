@@ -1,3 +1,7 @@
+/*
+此程式用於在/proc底下新增file，並完成其read和write的操作定義
+*/
+
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/proc_fs.h>
